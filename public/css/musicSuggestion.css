@@ -1,0 +1,155 @@
+.navbar{
+  background-image: url("https://www.planwallpaper.com/static/images/8ccb4ec4225b290726ae9be975220ff4.jpg");
+}
+.navbar .navbar-brand{
+  color: white;
+}
+.navbar .navbar-nav{
+
+}
+.navbar .nav-item a{
+  color: white !important;
+}
+.dropdown-menu{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.dropdown-item:hover{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.navbar form button{
+  color: white;
+  background-color: black;
+  border: 0;
+}
+.modal-body{
+  height: 400px;
+  background-color: white;
+}
+.welcomeImage img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#welcome{
+  margin-left: 9rem;
+  margin-top: 10px;
+  font-weight: bold;
+  animation: type 3s steps(30) infinite;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #663399;
+}
+#songName{
+  margin-top: 10px;
+  font-weight: bold;
+  animation: type 5s steps(40) infinite;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #663399;
+}
+@keyframes type {
+  0% {
+    width: 0ch;
+  }
+  100% {
+    width: 40ch;
+  }
+}
+.filterMusic{
+  box-sizing: content-box;
+  text-align: center;
+  border-radius: 5px;
+  padding: .5em;
+
+  color: white;
+  background-color: #5D3F6A;
+}
+.cardLabel{
+  padding: 5px;
+  color:white;
+  font-weight: bold;
+}
+.cardArrow{
+  text-align: center;
+  weight: bold;
+  color: white;
+}
+#dropdownMenuButton{
+  width:100%; background-color: white; color:black; border: 0;
+}
+#cardDropItem{
+  color: white;
+}
+#cardSubmitButton{
+  margin-top: 15px;
+  border-radius: 5px;
+  padding: 8px;
+  background-color: #446CB3;
+  border-color: #446CB3;
+}
+#cardSubmitButton:hover{
+  transition: 0.5s ease-in;
+  background-color: #5D3F6A;
+  border-color: #5D3F6A;
+}
+#npRow{
+  margin-top: 20px;
+  background-color: #5D3F6A;
+}
+#npIframe{
+  background-color: rgba(0, 0, 0, 0.3);
+}
+#nppTag{
+  margin-top: 15px;
+  color: white;
+}
+#npp2Tag{
+  margin-top: 10px;
+}
+#footerRow{
+  margin-top: 20px;
+  height:104px;
+  text-align: center;
+  background-color: #89729E;
+}
+#footerRow1{
+  padding: 5px;
+}
+#footerRow2
+{
+  padding: 35px;
+  color: white;
+}
+#gpt{
+  margin-top: 20px;
+  height:104px; text-align: center;
+  background-color: #89729E;
+}
+#pfooter{
+  margin: 0;
+  color: white;
+}
+.card{
+  margin-top: 3.2rem;
+  background-color: #89729E;
+}
+@media (min-width: 1200px) {
+  .card{
+    height: 303px;
+  }
+}
+@media (max-width: 1200px) {
+  .card{
+    height: 252px;
+  }
+}
+@media (max-width: 1200px) {
+  .filterMusic{
+    font-size: 15px;
+  }
+  #cardSubmitButton{
+    padding: 3px;
+    margin-top: 10px;
+  }
+}
